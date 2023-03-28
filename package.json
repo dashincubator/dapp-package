@@ -1,0 +1,13 @@
+{
+    "author": "ICJR",
+    "dependencies": {
+        "dapp": "git+https://github.com/dash-incubator/dash-dapp.git"
+    },
+    "description": "Dash dapp package manager",
+    "name": "dapp-package-manager",
+    "private": true,
+    "scripts": {
+        "js:webpack": "webpack --config node_modules/dapp/webpack.javascript.config.js --env=input=./src --env=output=./dist/js --env=production=false"
+    },
+    "version": "0.0.1"
+}
